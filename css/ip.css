@@ -1,3 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Basic);
+
+html {
+    height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Basic', sans-serif;
+	text-align: center;
+	background-image: -moz-linear-gradient(top, #CCCCCC 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(top, #CCCCCC 0%, #FFFFFF 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CCCCCC), color-stop(1, #FFFFFF));
+	background-image: -webkit-linear-gradient(top, #CCCCCC 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #CCCCCC 0%, #FFFFFF 100%);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container {
+	margin: 0 auto;
+	width: 300px;
+}
+
+#header {
+	margin-top: 20px;
+	font-size: 20px;
+	text-shadow: 1px 1px #ddd;
+}
+
 #ip {
-  font-family: 'Playfair Display';
+	font-size: 30px;
+	margin-top: 50px;
+	text-shadow: 1px 1px #ddd;
+}
+
+#footer {
+	font-size: 12px;
+	color: #666;
+	margin: 5px;
+	position: absolute;
+	bottom: 0;
+}
+
+a {
+	text-decoration: none !important;
+	color: #666;
+}
+
+hr {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 8px auto;
+	height: 0;
+	width: 100%;
+	max-height: 0;
+	line-height: 0;
+	clear: both;
+	border: none;
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #ffffff;
 }

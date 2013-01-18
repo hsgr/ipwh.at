@@ -1,9 +1,9 @@
 {
-  "name": "whatismyip",
+  "name": "ipwh.at",
   "description": "Show what is my IP on the net",
   "launch_path": "/",
   "icons": {
-    "128": "ip.png"
+    "128": "/icon.png"
   },
   "developer": {
     "name": "Evaggelos Balasaks",
