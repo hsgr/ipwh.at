@@ -1,0 +1,13 @@
+{
+  "name": "whatismyip",
+  "description": "Show what is my IP on the net",
+  "launch_path": "/",
+  "icons": {
+    "128": "ip.png"
+  },
+  "developer": {
+    "name": "Evaggelos Balasaks",
+    "url": "ipwh.at"
+  },
+  "default_locale": "en"
+}
