@@ -10,3 +10,18 @@ document.getElementById("install_app").onclick = function(){
                 alert('Install failed, error: ' + this.error.name);
         };
 }
+
+$(document).ready(function() {
+        $.ajax({
+                type: 'GET',
+                url: 'http://ipwh.at/checks.php',
+                dataType: 'jsonp',
+                jsonp: 'tr',
+                success: function(data) {
+                        $('#trace').empty();
+                        $.each( data, function(k, v){
+                                $('#trace').append('<p class="terminal-line">' + v + '</p>');
+                        });
+                }
+        });
+});

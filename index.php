@@ -4,6 +4,7 @@
 	<title>ipwh.at</title>
 
 	<link href="css/ip.css" rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.js"></script>
 </head>
 
 <body>
@@ -13,14 +14,20 @@
 			ipwh.at
 		</div>
 		
-		<div id="ip" >
-			<?php echo $_SERVER["REMOTE_ADDR"] ."<br>" . gethostbyaddr( $_SERVER['REMOTE_ADDR'] ) ;?>
+		<div id="whoami">
+			<span id="ip"><?php echo $_SERVER["REMOTE_ADDR"] ;?></span>
+			<br>
+			<span id="hostname"><?php echo gethostbyaddr( $_SERVER['REMOTE_ADDR'] ) ;?></span>
+		</div>
+
+		<div id="trace">
+			Tracing you from our server...
 		</div>
 		
 		<div id="footer">
 			<hr>
 			Open Web App to display your IP and Hostname
-			<br>by <a href="http://ebalaskas.gr/">Ebal</a>
+			by <a href="http://ebalaskas.gr/">Ebal</a>
 			 - <a href="https://github.com/hsgr/ipwh.at">Fork me on Github</a>
 			 - <a href="#" id="install_app">Click here to install</a>
 		</div>
