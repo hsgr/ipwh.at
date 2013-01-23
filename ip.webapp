@@ -7,7 +7,8 @@
   },
   "developer": {
     "name": "Evaggelos Balasaks",
-    "url": "ipwh.at"
+    "url": "http://ebalaskas.gr"
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "version": "0.1"
 }
